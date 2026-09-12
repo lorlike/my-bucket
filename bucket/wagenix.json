@@ -4,7 +4,10 @@
     "homepage": "https://github.com/lorlike/wagenix",
     "license": "MIT",
     "url":"https://github.com/lorlike/wagenix/releases/download/v1.0.0/wagenix-x86_64-windows.zip",
-    "bin": "wagenix.exe",
+    "bin": [
+        ["wagenix.exe", "wagenix"],
+        ["wagenix.exe", "agenix"]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/lorlike/wagenix/releases/download/v$version/wagenix-x86_64-windows.zip"
